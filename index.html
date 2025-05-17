@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Víctor Gabriel - Perfil</title>
+
+    <style>
+        body {
+            background: linear-gradient(120deg, #cde0ff, #f0e6ff);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0 20px;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4b0082;
+            font-size: 2.5em;
+            margin: 0;
+            padding-top: 10px;
+        }
+
+
+        .button, #mostrarMensagemBtn {
+            cursor: pointer;
+            padding: 10px 20px;
+            background-color: #ffd700;
+            color: #4b0082;
+            border: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            margin: 10px auto;
+            display: block;
+        }
+
+
+        h1 .button {
+            margin-top: 0;
+        }
+
+        .button:hover, #mostrarMensagemBtn:hover {
+            background-color: #ffa500;
+            color: white;
+        }
+
+
+        p {
+            font-size: 20px;
+            line-height: 1.8;
+            max-width: 800px;
+            margin: 20px auto;
+            text-align: justify;
+        }
+
+
+        ul {
+            list-style: disc;
+            margin: 30px auto;
+            max-width: 200px;
+            font-size: 18px;
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 15px;
+        }
+
+
+        img.kimono {
+            display: block;
+            margin: 20px auto;
+            width: 240px;
+            height: auto;
+            border-radius: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+
+        table {
+            margin: 30px auto;
+            border-collapse: collapse;
+            width: 90%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+        }
+
+        th,
+        td {
+            border: 2px dashed #4b0082;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #e0b0ff;
+            color: #4b0082;
+        }
+
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+
+        img.bandeira {
+            width: 100px;
+            border-radius: 10px;
+        }
+
+
+        a {
+            display: block;
+            text-align: center;
+            margin: 30px auto;
+            font-size: 18px;
+            color: #4b0082;
+            text-decoration: none;
+        }
+
+        a:hover {
+            background-color: #4b0082;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 6px;
+            transition: 0.3s;
+        }
+
+
+        .mensagem {
+            text-align: center;
+            font-size: 20px;
+            color: darkgreen;
+            margin-top: 20px;
+            font-weight: bold;
+            animation: fadeIn 1s ease-in-out forwards;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <h1>
+        <a class="button" id="ativarBotao" href="#">Víctor Gabriel Fonseca Ventura</a>
+    </h1>
+
+
+    <p id="paragrafo">
+        Meu nome é Víctor Gabriel Fonseca Ventura, tenho 22 anos e nasci em Barbacena, cidade onde vivo até hoje.
+        Desde pequeno, sempre fui uma pessoa calma, curiosa, determinada e alegre. Essas características me acompanham
+        até hoje, moldando quem sou e impulsionando meus sonhos e objetivos.
+        <br><br>
+        Sou apaixonado por música, esportes e artes marciais, atividades que me ajudam a equilibrar a rotina e manter
+        minha mente ativa.
+        Atualmente, concilio o trabalho como militar com os estudos na área de Análise e Desenvolvimento de Sistemas,
+        buscando sempre meu crescimento pessoal e profissional.
+        <br><br>
+        Tenho como grande objetivo me desenvolver o máximo possível, tanto como pessoa quanto como profissional, e me
+        tornar um desenvolvedor de qualidade.
+        Acredito que o sucesso é alcançado através da persistência extrema, como diz a frase que me inspira:
+        <strong>"Persistir é pouco, é mais do mesmo; persista ao extremo e aumente suas chances de êxito."</strong>
+    </p>
+
+    <div id="mensagemArea"></div>
+
+
+    <ul>
+        <li>Jogar</li>
+        <li>Estudar</li>
+        <li>Lutar</li>
+    </ul>
+
+
+    <img class="kimono" src="./WhatsApp Image 2025-04-27 at 12.54.20.jpeg" alt="Kimono" />
+
+
+    <table>
+        <tr>
+            <th colspan="2">Países com vontade de visitar</th>
+        </tr>
+        <tr>
+            <td>Espanha</td>
+            <td><img class="bandeira" src="https://i.pinimg.com/736x/35/1c/e5/351ce5be37644e4c609a214563bab8ee.jpg"
+                    alt="Bandeira Espanha" /></td>
+        </tr>
+        <tr>
+            <td>Rússia</td>
+            <td><img class="bandeira" src="https://i.pinimg.com/736x/6f/13/36/6f1336923f6a000ee0929b7823d3065c.jpg"
+                    alt="Bandeira Rússia" /></td>
+        </tr>
+        <tr>
+            <td>Suécia</td>
+            <td><img class="bandeira" src="https://i.pinimg.com/736x/34/f0/f5/34f0f5604dc50fde2dcc7c9f3e2b139e.jpg"
+                    alt="Bandeira Suécia" /></td>
+        </tr>
+    </table>
+
+
+    <a target="_blank" href="https://www.w3schools.com">Site de meu interesse</a>
+
+
+    <script>
+        const nomeLink = document.getElementById("ativarBotao");
+
+        nomeLink.addEventListener("click", function (e) {
+            e.preventDefault();
+
+            if (document.getElementById("botaoMensagem")) return;
+
+            const botao = document.createElement("button");
+            botao.textContent = "Clique para ver uma mensagem!";
+            botao.className = "button";
+            botao.id = "botaoMensagem";
+
+            const paragrafo = document.getElementById("paragrafo");
+            paragrafo.insertAdjacentElement("afterend", botao);
+
+            botao.addEventListener("click", function () {
+                const area = document.getElementById("mensagemArea");
+
+                if (!area.querySelector(".mensagem")) {
+                    const mensagem = document.createElement("div");
+                    mensagem.className = "mensagem";
+                    mensagem.textContent = "Persistir é pouco, é mais do mesmo; persista ao extremo e aumente suas chances de êxito!";
+                    area.appendChild(mensagem);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
